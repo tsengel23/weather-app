@@ -23,7 +23,7 @@ export default function Home() {
     }
   };
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gray-100 border-2 border-blue-600">
+    <div className="min-h-screen flex justify-center items-center bg-gray-100 border-2 ">
       <div className="bg-white p-8 rounded-2xl w-full max-w-md">
         <h1 className="text-2xl font-bold mb-4">⛅ Weather App</h1>
         <SearchBar onSearch={handlerSearch} />

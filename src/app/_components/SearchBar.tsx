@@ -11,7 +11,7 @@ export const SearchBar = ({
 }) => {
   const [city, setCity] = useState("");
   return (
-    <div className="flex gap-2 border-2 border-red-500">
+    <div className="flex gap-2 ">
       <Input
         onKeyDown={(e) => {
           if (e.key === "Enter") {
